@@ -14,17 +14,31 @@ export default {
         <div class="ms-container">
             <nav>
                 <ul class="d-flex list-unstyled gap-2 px-4 py-4 justify-content-between fs-4">
-                    <li>Ciao</li>
-                    <li>Ciao</li>
-                    <li>Ciao</li>
-                    <li>Ciao</li>
-                    <li>Ciao</li>
-                    <li>Ciao</li>
-
+                    <li class="d-flex align-items-center">
+                      <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+                      <h5 class="ms-2">DIGITAL COMICS</h5>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                      <h5 class="ms-2">DC MERCHANDISE</h5>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                      <h5 class="ms-2">SUBSCRIPTION</h5>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <img class="logo-locator" src="../assets/img/buy-comics-shop-locator.png" alt="">
+                      <h5 class="ms-2">COMIC SHOP LOCATOR</h5>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                      <h5 class="ms-2">DC POWER VISA</h5>
+                    </li>
                 </ul>
             </nav>
         </div>
     </div>
+    
 
 </template>
 
@@ -41,9 +55,11 @@ export default {
 
    .bg-main-2 {
     background-color: blue; 
-    min-height: 100px;
+    height: 100px;
      ul {
         color : $color-white
+     } img {
+        width :40px;
      }
    }
 </style>
