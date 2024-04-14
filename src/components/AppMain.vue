@@ -13,7 +13,7 @@ export default {
     <div class="bg-main-2">
         <div class="ms-container">
             <nav>
-                <ul class="d-flex list-unstyled gap-2 px-5 py-5 justify-content-between fs-4">
+                <ul class="d-flex list-unstyled gap-2 px-4 py-4 justify-content-between fs-4">
                     <li>Ciao</li>
                     <li>Ciao</li>
                     <li>Ciao</li>
@@ -32,6 +32,7 @@ export default {
  @use '../style/partials/variables' as *;
    .bg-main{
      background-color: black;
+     
      h2 {
         color : $color-white;
      }
@@ -40,6 +41,7 @@ export default {
 
    .bg-main-2 {
     background-color: blue; 
+    min-height: 100px;
      ul {
         color : $color-white
      }
