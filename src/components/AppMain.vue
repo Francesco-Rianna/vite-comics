@@ -54,7 +54,7 @@ export default {
    }
 
    .bg-main-2 {
-    background-color: blue; 
+    background-color: #0282f9; 
     height: 100px;
      ul {
         color : $color-white

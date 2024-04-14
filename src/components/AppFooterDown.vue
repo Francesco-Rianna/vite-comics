@@ -11,8 +11,8 @@ export default {
                 <button class="bg-transparent p-2">
                     SIGN-UP-NOW!
                 </button>
-                <div class="d-flex align-items-center">
-                    <span class="mx-4">Follow Us</span>
+                <div class="d-flex align-items-center gap-2">
+                    <span class="">Follow Us</span>
                     <img src="../assets/img/footer-facebook.png" alt="">
                     <img src="../assets/img/footer-twitter.png" alt="">
                     <img src="../assets/img/footer-youtube.png" alt="">
