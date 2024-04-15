@@ -4,12 +4,14 @@ import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
 import AppFooter from './components/AppFooter.vue'
 import AppFooterDown from './components/AppFooterDown.vue'
+import AppHero from './components/AppHero.vue'
 export default {
   components : {
     AppHeader,
     AppMain ,
     AppFooter,
-    AppFooterDown
+    AppFooterDown,
+    AppHero
   }
 }
  </script>
@@ -19,6 +21,7 @@ export default {
     <AppHeader></AppHeader>
   </header>
   <main>
+    <AppHero></AppHero>
     <AppMain></AppMain>
   </main>
 
