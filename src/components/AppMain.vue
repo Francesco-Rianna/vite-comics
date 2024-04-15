@@ -1,13 +1,19 @@
 <script>
+import CardList from './CardList.vue'
 export default {
-    name : 'AppMain'
+    name : 'AppMain',
+    components : {
+      CardList
+    }
 }
 </script>
 
 <template>
     <div class="bg-main">
         <div class="ms-container p-3">
-            <h2>--------> Contents go here <------</h2>
+            <button class="ms-btn-bg-main p-1">Current series</button>
+            <CardList></CardList>
+
         </div>
     </div>
     <div class="bg-main-2">
@@ -47,8 +53,14 @@ export default {
    .bg-main{
      background-color: black;
      
+     
      h2 {
         color : $color-white;
+     } .ms-btn-bg-main {
+        position: relative;
+        top: -25px;
+        background-color: #0282f9;
+        color: $color-white;
      }
       
    }
@@ -59,7 +71,7 @@ export default {
      ul {
         color : $color-white
      } img {
-        width :40px;
+        width: 40px;
      }
    }
 </style>
